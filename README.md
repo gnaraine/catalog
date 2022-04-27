@@ -1,4 +1,4 @@
-# cautious-waffle
+# catalog
 
 #application.yml
 ```
