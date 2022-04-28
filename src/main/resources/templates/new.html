@@ -23,7 +23,7 @@
 
         <h1 class="display-5 text-center">Add New</h1>
 
-        <form th:attr="action=@{/addNewItem}" method="POST" enctype="multipart/form-data">
+        <form th:attr="action=@{/new}" method="POST" enctype="multipart/form-data">
             <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
             <!-- <div class="input-group mb-3">
                 <span class="input-group-text" id="basic-addon2">ID</span>
